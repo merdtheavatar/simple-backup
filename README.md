@@ -1,5 +1,5 @@
 # Simple Backup
-simple_ba is a script that allows you to back up MySQL and PostgreSQL databases using the command line. The backup is performed by including the current date and time of the script execution.
+simple_backup.sh is a script that allows you to back up MySQL and PostgreSQL databases using the command line. The backup is performed by including the current date and time of the script execution.
 
 ## How to use
 For the MySQL backup to work without issues, you first need to create the .my.cnf file in the home directory. Then,add the following content to the file.
