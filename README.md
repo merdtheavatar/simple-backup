@@ -21,7 +21,7 @@ sudo chmod 600 ~/.my.cnf
 ```
 ## Author
 
-Merdi Kandi [kandimerdi@.com](mailto:kandimerdi@gmail.com) 
+Merdi Kandi [kandimerdi@gmail.com](mailto:kandimerdi@gmail.com) 
 
 ## Contribution
 Contributions are welcome! If you’d like to help improve this script, feel free to reach out
