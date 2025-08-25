@@ -4,7 +4,7 @@
 # Author : Merdtheavatar
 # Date ; August 25, 2025
 # Description: Script to back up a MySQL/PostgreSQL database
-# License: MIT (Open Source)
+# License: MIT
 # ----------------------------------------------------------
 
 # Enter credentials
@@ -15,7 +15,7 @@ read -p "Enter your database user : " db_user
 echo " "
 
 # Enter database type 
-read -p "Enter type database type (mysql/prostgres) : " db_type
+read -p "Enter database type (mysql/prostgres) : " db_type
 
 # Enter database name
 read -p "Enter database name : " db_name
@@ -23,7 +23,7 @@ read -p "Enter database name : " db_name
 # Create database directory if not exist
 mkdir -p ~/db_backups
 
-# Generate database file with database name, date en sql extension
+# Generate database file with database name and date
 db_file=~/db_backups/${db_name}_$(date +%F_%H-%M).sql
 
 if [[ "$db_type" == "mysql" ]]; then
